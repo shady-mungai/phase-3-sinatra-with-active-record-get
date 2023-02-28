@@ -24,6 +24,8 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem 'json', '~> 2.6', '>= 2.6.3'
+
 # These gems will only be used when we are running the application locally
 group :development do
   # Used to generate seed data
